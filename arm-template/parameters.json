@@ -1,1 +1,51 @@
-
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vaults_Citadel_KV_0_name": {
+            "value": null
+        },
+        "sshPublicKeys_Citadel_key_name": {
+            "value": null
+        },
+        "virtualMachines_Citadel_VM_name": {
+            "value": null
+        },
+        "virtualNetworks_Citadel_VNet_name": {
+            "value": null
+        },
+        "storageAccounts_citadelstore_name": {
+            "value": null
+        },
+        "networkInterfaces_citadel_vm766_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Citadel_NSG_name": {
+            "value": null
+        },
+        "publicIPAddresses_Citadel_PublicIP_name": {
+            "value": null
+        },
+        "workspaces_Citadel_LAW_name": {
+            "value": null
+        },
+        "dataCollectionRules_Citadel_DCR_Syslog_name": {
+            "value": null
+        },
+        "dataCollectionRules_MSVMI_westus2_citadel_vm_name": {
+            "value": null
+        },
+        "scheduledqueryrules_Citadel_Alert_VMHeartbeat_name": {
+            "value": null
+        },
+        "dataCollectionRules_MSVMOtel_westus2_citadel_vm_name": {
+            "value": null
+        },
+        "solutions_SecurityInsights_citadel_law__name": {
+            "value": null
+        },
+        "accounts_defaultazuremonitorworkspace_wus2_externalid": {
+            "value": null
+        }
+    }
+}
